@@ -1,15 +1,15 @@
 # Kushagra_Portfolio
 Data Science Portfolio of Kushagra Chaturvedi
 
-# Project 1: Gideon-Chat-bot
+# [Project 1: Gideon-Chat-bot](https://github.com/Kushagra-Chaturvedi/Gideon-Chat-bot)
 Developed a Chatbot and hosted it on Telegram to answer questions of the freshers entering this college. Collected Data about IIT Mandi and different queries a student has while taking admission in a college. Created a Neural Network for training the chatbot. Used text Preprocessing like tokenization and stemming.
 
-# Project 2: Frosthack_Resyst
+# [Project 2: Frosthack_Resyst](https://github.com/Kushagra-Chaturvedi/Frosthack_Resyst)
 This is the link of app deployed on Heroku: https://resyst-frosthack.herokuapp.com/
 For new account , you must sign up as a service provider. Then Login and provide details about the services you can provide.
 For a patient, you don't need an account. Just add the pincode, and all available service providers would shown to you directly.
 
-# Project 3: Bag-Of-Visual-Words-from-Scratch
+# [Project 3: Bag-Of-Visual-Words-from-Scratch](https://github.com/Kushagra-Chaturvedi/Bag-Of-Visual-Words-from-Scratch)
 Applied Bag Of Visual Words Model on Image Dataset
 Applied Bag Of Visual Words algorithm for Image Data from Scratch. It was multi-class Image Data. The Classes were: Botanical Garden, Elevator Shaft and Bus Interior. After implementing the BOVW algorithm, extracted vectors were fed to a multilayer neural network also made from scratch without using any frameworks.
 obtained a 32-dimensional representation of each 
@@ -44,7 +44,7 @@ Test Data:<br>
 3) Error:
  0.30
 
-# Project 4: Movies-Clustering
+# [Project 4: Movies-Clustering](https://github.com/Kushagra-Chaturvedi/Movies-Clustering)
 Clustering Movies based on their Plots
 ## About:
 <p>There are some movies we like, some we don't. Most people have a preference for movies of a similar genre. Some of us love watching action movies, while some of us like watching horror. Some of us like watching movies that have ninjas in them, while some of us like watching superheroes.</p>
@@ -53,12 +53,12 @@ Clustering Movies based on their Plots
 <img style="margin:5px 20px 5px 1px; height: 250px; display: inline-block;" alt="Gravity" src="https://www.hollywoodreporter.com/wp-content/uploads/2013/08/gravity_2.jpg"></p>
 <p>Both movies, <em>Interstellar</em> and <em>Gravity</em>, are movies based on space exploration. Both are marvellous movies and share a good amount of similarity. One could conclude that both of these fall into the same genre of movies based on intuition. In this notebook, I have quantified the similarity of movies based on their plot summaries available on IMDb and Wikipedia, then separate them into groups, also known as clusters. I created a dendrogram to represent how closely the movies are related to each other.</p>
 
-# Project 5: Fashion_MNIST-End-to-End-Using-Streamlit
+# [Project 5: Fashion_MNIST-End-to-End-Using-Streamlit](https://github.com/Kushagra-Chaturvedi/Fashion_MNIST-End-to-End-Using-Streamlit)
 Trained Convolutional Neural Network on Fashion MNIST dataset.
 ### **Data Description**
 This is a dataset of 60,000 28x28 grayscale images of 10 fashion categories,
 along with a test set of 10,000 images. 
-# **Model Summary**
+## **Model Summary**
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -113,3 +113,6 @@ dense_28 (Dense)             (None, 10)                330
 Total params: 580,394<br>
 Trainable params: 579,690<br>
 Non-trainable params: 704
+
+# [Project 6: OpenCV-Programs](https://github.com/Kushagra-Chaturvedi/OpenCV-Programs)
+Developed Motion Detection, Object Tracing and Hand Tracking projects using OpenCV library of Python.
