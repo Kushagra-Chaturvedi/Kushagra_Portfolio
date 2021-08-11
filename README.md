@@ -52,3 +52,64 @@ Clustering Movies based on their Plots
 <p><img style="margin:5px 20px 5px 1px; height: 250px; display: inline-block;" alt="Interstellar" src="https://images-na.ssl-images-amazon.com/images/I/51H4jXmToqL._SX300_BO1,204,203,200_.jpg">
 <img style="margin:5px 20px 5px 1px; height: 250px; display: inline-block;" alt="Gravity" src="https://www.hollywoodreporter.com/wp-content/uploads/2013/08/gravity_2.jpg"></p>
 <p>Both movies, <em>Interstellar</em> and <em>Gravity</em>, are movies based on space exploration. Both are marvellous movies and share a good amount of similarity. One could conclude that both of these fall into the same genre of movies based on intuition. In this notebook, I have quantified the similarity of movies based on their plot summaries available on IMDb and Wikipedia, then separate them into groups, also known as clusters. I created a dendrogram to represent how closely the movies are related to each other.</p>
+
+# Project 5: Fashion_MNIST-End-to-End-Using-Streamlit
+Trained Convolutional Neural Network on Fashion MNIST dataset.
+### **Data Description**
+This is a dataset of 60,000 28x28 grayscale images of 10 fashion categories,
+along with a test set of 10,000 images. 
+# **Model Summary**
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_8 (InputLayer)         [(None, 28, 28, 1)]       0         
+_________________________________________________________________
+conv2d_27 (Conv2D)           (None, 28, 28, 32)        320       
+_________________________________________________________________
+batch_normalization_26 (Batc (None, 28, 28, 32)        128       
+_________________________________________________________________
+tf.nn.relu_26 (TFOpLambda)   (None, 28, 28, 32)        0         
+_________________________________________________________________
+max_pooling2d_20 (MaxPooling (None, 14, 14, 32)        0         
+_________________________________________________________________
+conv2d_28 (Conv2D)           (None, 14, 14, 64)        18496     
+_________________________________________________________________
+batch_normalization_27 (Batc (None, 14, 14, 64)        256       
+_________________________________________________________________
+tf.nn.relu_27 (TFOpLambda)   (None, 14, 14, 64)        0         
+_________________________________________________________________
+max_pooling2d_21 (MaxPooling (None, 7, 7, 64)          0         
+_________________________________________________________________
+conv2d_29 (Conv2D)           (None, 7, 7, 128)         73856     
+_________________________________________________________________
+batch_normalization_28 (Batc (None, 7, 7, 128)         512       
+_________________________________________________________________
+tf.nn.relu_28 (TFOpLambda)   (None, 7, 7, 128)         0         
+_________________________________________________________________
+max_pooling2d_22 (MaxPooling (None, 3, 3, 128)         0         
+_________________________________________________________________
+conv2d_30 (Conv2D)           (None, 3, 3, 128)         147584    
+_________________________________________________________________
+batch_normalization_29 (Batc (None, 3, 3, 128)         512       
+_________________________________________________________________
+tf.nn.relu_29 (TFOpLambda)   (None, 3, 3, 128)         0         
+_________________________________________________________________
+flatten_6 (Flatten)          (None, 1152)              0         
+_________________________________________________________________
+dense_24 (Dense)             (None, 256)               295168    
+_________________________________________________________________
+dropout_10 (Dropout)         (None, 256)               0         
+_________________________________________________________________
+dense_25 (Dense)             (None, 128)               32896     
+_________________________________________________________________
+dropout_11 (Dropout)         (None, 128)               0         
+_________________________________________________________________
+dense_26 (Dense)             (None, 64)                8256      
+_________________________________________________________________
+dense_27 (Dense)             (None, 32)                2080      
+_________________________________________________________________
+dense_28 (Dense)             (None, 10)                330       
+<br>
+Total params: 580,394<br>
+Trainable params: 579,690<br>
+Non-trainable params: 704
