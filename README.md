@@ -1,6 +1,6 @@
 # Kushagra's Data Science Portfolio
-## Email: chaturvedikushagra21@gmail.com
-## linkedin: https://www.linkedin.com/in/kushagrachaturvedi21/
+## [Email: chaturvedikushagra21@gmail.com](chaturvedikushagra21@gmail.com)
+## [linkedin: https://www.linkedin.com/in/kushagrachaturvedi21/](https://www.linkedin.com/in/kushagrachaturvedi21/)
 ## phone: 8318942101
 
 
